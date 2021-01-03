@@ -23,6 +23,11 @@ public class AnotherClass {
 		this.year = year;
 	}
 	
+	public boolean isOld(int age) {
+		if (age > 35) return true;
+		else
+			return false;
+	}
 	
 	
 
