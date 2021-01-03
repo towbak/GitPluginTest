@@ -4,6 +4,12 @@ public class NewClass {
 	private int age;
 	private boolean voted;
 	
+	public NewClass() {
+		name = "";
+		age = 0;
+		voted = false;
+	}
+	
 	public String getName() {
 		return name;
 	}
