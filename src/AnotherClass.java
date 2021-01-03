@@ -2,6 +2,7 @@
 public class AnotherClass {
 	private String name;
 	private String location;
+	private int year;
 	
 	public String getName() {
 		return name;
@@ -15,6 +16,13 @@ public class AnotherClass {
 	public void setLocation(String location) {
 		this.location = location;
 	}
+	public int getYear() {
+		return year;
+	}
+	public void setYear(int year) {
+		this.year = year;
+	}
+	
 	
 	
 
